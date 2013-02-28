@@ -10,7 +10,7 @@ def Cat(filename):
         print('---', filename)
         print(text, end='')
     except FileNotFoundError:
-        print(":::::::::::::::::=>", filename, "NOT FOUND <=::::::::::::::::::::)
+        print(":::::::::::::::::=>", filename, "NOT FOUND <=::::::::::::::::::::")
 
 
 def main():
